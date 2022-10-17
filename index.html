@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <script src="https://kit.fontawesome.com/d117452c36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Furniture</div>
+            <div class="nav-links-right">
+                <div class="sec" id="nav-links">
+                    <a href="#">About Us</a>
+                    <a href="#">Furniture</a>
+                    <a href="#">Our Service</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="sec" id="user-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="s1">
+        <div class="left-side">
+            <div class="sec1">
+                <h2>Chair <span>Normal Sitting Chair</span></h2>
+                <h1>Refreshing</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ornare suspendisse sed nisi lacus sed viverra.tempor 
+                    incididunt ut labore et dolore magna 
+                    aliqua. Ornare suspendisse sed nisi lacus sed viverra.
+                </p>
+            </div>
+            <div class="sec2">
+                <h2>$586</h2>
+                <a href="#" id="c-1"><span class ="colors" ></span></a>
+                <a href="#" id="c-2"><span class ="colors"></span></a>
+                <a href="#" id="c-3"><span class ="colors" ></span></a>
+                <a href="#" id="c-4"><span class ="colors" ></span></a>
+            </div>
+            <div class="sec3">
+                <button>Add to Cart</button>
+                <p>Free 2-5 day shipping - Tool-free assemby - 30-day trail</p>
+                <div class="s3-bottom">
+                    <div class="bottom-left">
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <span> Add to Wishlist</span>
+                    </div>
+                    <div class="bottom-right">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="right-side">
+
+            <div class="container">
+                
+                <div class="mySlides">
+                    <div class="numbertext">01/05 </div>
+                    <img src="imgs/1.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">02/05 </div>
+                    <img src="imgs/2.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">03/05 </div>
+                    <img src="imgs/3.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">04/05 </div>
+                    <img src="imgs/4.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">05/05 </div>
+                    <img src="imgs/5.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#xff1c;</a>
+                <a class="next" onclick="plusSlides(1)">&#xff1e;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+
+                    <div class="column">
+                        <img 
+                        class="demo cursor" 
+                        src="imgs/1.jpg" 
+                        style="width:100%" 
+                        onclick="currentSlide(1)" 
+                        alt="Modern Seating Area">
+                    </div>
+
+                    <div class="column">
+                        <img 
+                        class="demo cursor" 
+                        src="imgs/2.jpg" 
+                        style="width:100%" 
+                        onclick="currentSlide(2)" 
+                        alt="Lounge Siting Area">
+                    </div>
+
+                    <div class="column">
+                        <img 
+                        class="demo cursor" 
+                        src="imgs/3.jpg" 
+                        style="width:100%" 
+                        onclick="currentSlide(3)" 
+                        alt="Modern Conference Area">
+                    </div>
+
+                    <div class="column">
+                        <img 
+                        class="demo cursor" 
+                        src="imgs/4.jpg" 
+                        style="width:100%" 
+                        onclick="currentSlide(4)" 
+                        alt="Interior Dining Area">
+                    </div>
+
+                    <div class="column">
+                        <img 
+                        class="demo cursor" 
+                        src="imgs/5.jpg" 
+                        style="width:100%" 
+                        onclick="currentSlide(5)" 
+                        alt="Outdoor Sitting Area">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
